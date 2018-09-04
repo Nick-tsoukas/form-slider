@@ -5,7 +5,21 @@ html, body {
 }
 
 body {
+  overflow: hidden;
+}
 
+.nav {
+  display: flex;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 1em;
+}
+
+.nav > li {
+  list-style: none;
 }
 
 section {

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="/css/exercise.css">
+</head>
+
+<body>
+  
+  <nav>
+    <ul class="nav">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="exercise.html">Exercise</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section>
+    <form>
+      <h2>Register</h2>
+      <div class="container">
+        <label for="fistName">First Name</label>
+        <input id="firsName" type="text" name="fistname">
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text" name="lastname">
+
+        <div class="gender">
+          <p>What is your gender</p>
+          <label for="male">Male</label>
+          <input type="radio" name="male" value="male">
+          <label for="female">Female</label>
+          <input type="radio" name="female" value="female">
+          <label for="other">Other</label>
+          <input type="radio" name="other" value="other">
+        </div>
+        <div class="birthday">
+          <label for="birthday">Birthday</label>
+          <select id="birthday" name="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+         </select>
+          <select name="Day">
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+          </select>
+          <select name="year">
+            <option value="1984">1984</option>
+            <option value="1985">1985</option>
+            <option value="1986">1986</option>
+          </select>
+        </div>
+        <button style="width:60px;" type="button">Submit</button>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>

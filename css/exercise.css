@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 30vw;
+  height: 30vh;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 1em;
+}
+
+.nav > li {
+  list-style: none;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div {
+  margin-bottom: .5em;
+}
